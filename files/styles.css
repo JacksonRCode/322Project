@@ -1,0 +1,127 @@
+/*
+******************************
+* RESET DEFAULT WEB SETTINGS *
+******************************
+*/
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+/*
+2. Remove default margin
+*/
+* {
+margin: 0;
+}
+/*
+Typographic tweaks!
+3. Add accessible line-height
+4. Improve text rendering
+*/
+body {
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+/*
+5. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+display: block;
+max-width: 100%;
+}
+
+/*
+6. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+font: inherit;
+}
+
+/*
+7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+overflow-wrap: break-word;
+}
+
+/*
+8. Create a root stacking context
+*/
+#root, #__next {
+isolation: isolate;
+}
+
+html {
+    font-family: Helvetica, sans-serif
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    padding: 16px 128px;
+
+    background-color: #93785b;
+}
+
+.asgnGroup {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A69080;
+    height: 80vh;
+    width: 100%;
+}
+
+.title {
+    padding-top: 16px;
+}
+
+.grpMemCnt {
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 50px;
+}
+
+.grpMember {
+    width: 500px;
+    height: 250px;
+    background-color: #Ac8968;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.content > h3 {
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+h3, h1 {
+    font-size: 32px;
+    color: #3e362e;
+}
+
+h1 {
+    font-size: 40px;
+}
