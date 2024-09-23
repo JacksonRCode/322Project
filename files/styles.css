@@ -103,12 +103,13 @@ body {
     width: 500px;
     height: 250px;
     background-color: #Ac8968;
-    border: 2px solid white;
+    border: 2px solid #3e362e;;
     border-radius: 5px;
 }
 
 .content > h3 {
-    color: white;
+    /* color: white; */
+    color: #3e362e;
 }
 
 footer {
