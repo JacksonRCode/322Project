@@ -106,10 +106,50 @@ body {
     border: 2px solid #3e362e;;
     border-radius: 5px;
 }
+.name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.photo {
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    overflow: hidden;
+    /* Hides the overflowed parts of the image */
+    display: flex;
+    /* Ensures content is centered if needed */
+    padding: 10px;
+}
 
+.photo img {
+    height: 100%;
+    width: auto;
+    /* Adjusts the image proportionally */
+    object-fit: cover;
+    /* Crops the image while maintaining aspect ratio */
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.role {
+    text-align: center;
+    color: #211c18;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.email {
+    text-align: center;
+    color: #302a25;
+    font-size: 14px;
+}
 .content > h3 {
     /* color: white; */
-    color: #3e362e;
+    color: #211c18;
 }
 
 footer {
